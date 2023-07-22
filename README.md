@@ -1,2 +1,2 @@
 # Javascript-refresher
-Practicing what I have previously learnt about Javascript
+Practicing what I have previously learnt on Javascript
