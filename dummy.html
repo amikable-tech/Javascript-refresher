@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy webpage</title>
+</head>
+<body>
+   
+    <script src="dummy.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   
+    <h1 class="flex justify-center text-3xl font-bold">
+        Javascript refresher
+    </h1>
+    <br>
+    <div class= "flex flex-col items-center">
+    <label class="block mb-2 font-bold text-gray-700" for="textarea">Random text</label>
+  
+   <div class="w-full max-w-md mx-auto">
+    <textarea  id="inputField" class="block w-full px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300" rows="4"placeholder="Input your message"></textarea>
+  </div>
+
+   <button 	
+   class="bg-purple-900 text-white hover:bg-blue-400 font-bold py-2 px-4 mt-3 rounded" onclick="alertInputContent()">Click here to alert content</button>
+</div>
+</div>
+<section>
+<div>
+    <p id="paragraph">
+    
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+    </p>
+    <button onclick="changeFontColor()">Click me to change font colour!</button>
+</section>
+<br>
+<section>
+    <div>
+       <p id="secondParagraph">
+        Hi everyone!!!
+       </p>
+       <button onclick="changeText()">Change</button> 
+    </div>
+</section>
+<br>
+<section>
+    <div>
+        <button id="alertBox" onclick="alertBox()">Open Me</button>
+    </div>
+</section>
+</div>
+
+
+
+</div>
+
+
+</body>
+</html>
