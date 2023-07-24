@@ -2,7 +2,6 @@
 alert("This is a friendly alert");
 
 
-
 //Create an input field, get the content of the input field and alert it
 function alertInputContent() {
 const inputField = document.getElementById('inputField'); 
@@ -16,7 +15,13 @@ alert(`You entered: ${inputValue}`);
 
 function changeFontColor() {
 const paragraph = document.getElementById('paragraph');
-paragraph.style.color = "green";
+console.log(paragraph)
+if (paragraph.classList.contains("text-green-500")){
+    paragraph.classList.replace("text-green-500", "text-black")
+} else {
+    paragraph.classList.replace("text-black", "text-green-500");
+
+}
 
 }
 
