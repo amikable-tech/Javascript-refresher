@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dummy.css">
+    <link rel="stylesheet" href="/build/css/style.css">
     <title>Dummy webpage</title>
 </head>
-<body class="container mx-auto">
+<body class="container mx-auto dark:bg-black dark:text-white dark:bg:none">
     <script src="dummy.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-   
-    <h1 class="flex justify-center text-3xl font-bold">
+
+    <h1 class="flex justify-center text-4xl font-bold mt-6 px-2 py-4">
         Javascript refresher
     </h1>
     <br>
     <div class= "flex flex-col items-center">
-    <label class="block mb-2 font-bold text-gray-700" for="textarea">Random text</label>
+    <label class="block mb-2 font-bold text-2xl" for="textarea">Random text</label>
   
    <div class="w-full max-w-md mx-auto">
     <textarea  id="inputField" class="block w-full px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300" rows="4"placeholder="Input your message"></textarea>
@@ -49,6 +48,24 @@
         <button id="alertBox" class="bg-blue-800 text-white hover:bg-purple-500 hover:text-white font-bold py-2 px-4 rounded" onclick="alertBox()">Open to view message</button>
     </div>
 </section>
+
+<div>
+    <div class="bg-gray-100 lg:py-12 lg:flex lg:justify-center">
+        <div class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
+            <div class="lg:w-1/2">
+                <div class="h-64 bg-cover lg:rounded-lg lg:h-full" style="background-image:url('https://www.vdsprod.fr/wp-content/uploads/2017/03/Capture-1288x724.jpg')"></div>
+            </div>
+            <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
+                <h2 class="text-3xl text-gray-800 font-bold">Build Your New <span class="text-indigo-600">Idea</span></h2>
+                <p class="mt-4 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
+                <div class="mt-8">
+                    <a href="https://github.com/" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Start Now</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+
 </div>
 
 
